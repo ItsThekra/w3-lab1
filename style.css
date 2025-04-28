@@ -39,18 +39,18 @@
     /* border: 1px solid rgb(255, 0, 204); */
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 10px;
+    gap: 3%;
     width: 95vw;
   }
   .item1 {
-    /* background-color: blue; */
-    height: 80vh;
+    height: 60vh;
+    width: 100%;
     grid-row: 1/3;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    box-shadow: 5px 5px 5px 5px rgb(128, 127, 127);
   }
   .story {
     /* border: 5px solid rgb(234, 255, 0); */
@@ -88,24 +88,7 @@
     width: 20%;
   }
   .item2 {
-    /* background-color: blueviolet; */
-    width: 100%; 
-    gap: 5%;
-    box-shadow: 5px 5px 5px rgb(128, 127, 127);
-
-  }
-  .my-name{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 95%;
-    height: 20vh;
-    gap: 7%;
-    text-align: justify;
-  }
-  .item2 img {
-   /* height:50vh; */
-   width: 100%;
+    background-color: blueviolet;
   }
   .item3 {
     box-shadow: 5px 5px 5px rgb(128, 127, 127);
@@ -133,67 +116,15 @@
   }
   .item4 {
     grid-row: 3 / 6;
-    height: 80vh;
-  
+    height: 60vh;
+    width: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    box-shadow: 5px 5px 5px 5px rgb(128, 127, 127);
   }
   .item5 {
-    width: 90%;
-    height: 40vh;
-    display: flex;
-    background-color: #f1f1f1;
-    box-shadow: 5px 5px 5px rgb(128, 127, 127);
-
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-   
+    background-color: chocolate;
   }
-
-
-  .tags-title {
-    font-size: 3vh;
-    background-color: #dbd9d9;
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-  }
-  
-  .tags-container {
-    width: 100%;
-    height: 30vh;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2%;
-    align-content: center;
-    justify-content: center;
-
-  }
-  
-  .tag {
-    background-color: #e0e0e0;
-    color: black;
-    height: 5vh;
-    min-width: 10%;
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    font-size: 2vh;
-    border-radius: 1vh;
-  }
-
-  
-  .active {
-    background-color: black;
-    color: white;
-  }
-
-
-
   /* artical end */
