@@ -1,0 +1,103 @@
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid; 
+    grid-template-rows: 1fr 2fr ;
+    width: 35vw;
+    height: 90vh;
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+}
+
+.header {
+
+    background: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),
+    url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80') center/cover no-repeat;   
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h2 {
+    color: white;
+    font-size: 2rem;
+}
+
+/* div اللي سوالي المسافة من الأطراف */
+.form-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* بعدين سويت هذا اللي فيه الكلام */
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    gap: 1.8rem;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.input-group label {
+    font-size: 1rem;
+}
+
+.input-group input {
+    border: none;
+    border-bottom: 0.1em solid #ccc;
+    outline: none;
+    font-size: 1rem;
+}
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.options a {
+    color: #888;
+    text-decoration: none;
+}
+.options a:hover {
+    color: #ff7b00; 
+}
+.new-user{
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+    flex-direction: column;
+    align-items: center;
+}
+.login-btn {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 2em;
+    width: 40%;
+    height: 2.5em;
+    cursor: pointer;
+}
+.login-btn:hover {
+    background-color: #4caf4f96;
+}
+.btn{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 10vh;
+}
