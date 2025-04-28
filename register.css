@@ -30,13 +30,11 @@ body {
     font-size: 2rem;
 }
 
-/* div اللي سوالي المسافة من الأطراف */
 .form-section {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-/* بعدين سويت هذا اللي فيه الكلام */
 form {
     display: flex;
     flex-direction: column;
@@ -101,3 +99,18 @@ form {
     justify-content: center;
     height: 10vh;
 }
+.btn a {
+   text-decoration: none;
+   background-color: #888;
+   color: #ffffff;
+   width: 150px;
+   text-align: center;
+   height: 6vh;
+   align-content: center;
+   border-radius: 20px;
+   background-color: #4CAF50;
+}
+.btn a:hover {
+   
+    background-color: #4caf4fa5;
+ }
